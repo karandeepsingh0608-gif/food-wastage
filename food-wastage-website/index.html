@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Food, Save Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Food Wastage Awareness</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#causes">Causes</a>
+            <a href="#effects">Effects</a>
+            <a href="#solutions">Solutions</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Food wastage is a serious problem. Learn how you can help reduce it.</p>
+    </section>
+
+    <section id="causes">
+        <h2>Causes of Food Wastage</h2>
+        <ul>
+            <li>Over-purchasing</li>
+            <li>Improper storage</li>
+            <li>Discarding edible food</li>
+        </ul>
+    </section>
+
+    <section id="effects">
+        <h2>Effects of Food Wastage</h2>
+        <p>Food wastage affects the environment, economy, and society.</p>
+    </section>
+
+    <section id="solutions">
+        <h2>Solutions</h2>
+        <p>Learn simple tips to reduce food wastage in your daily life.</p>
+        <button onclick="showTip()">Click for a Tip!</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Save Food Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<button onclick="showTip(0)">Tip 1</button>
+<button onclick="showTip(1)">Tip 2</button>
+<button onclick="showTip(2)">Tip 3</button>
+<section id="quiz">
+  <h2>Quiz: How much do you know about food wastage?</h2>
+  <p>What percentage of food is wasted worldwide?</p>
+  <button onclick="checkAnswer(true)">30%</button>
+  <button onclick="checkAnswer(false)">10%</button>
+  <button onclick="checkAnswer(false)">50%</button>
+  <p id="quizResult"></p>
+</section>
+<h3 onclick="toggleSection('causesList')">Causes of Food Wastage ▼</h3>
+<ul id="causesList">
+  <li>Over-purchasing</li>
+  <li>Improper storage</li>
+  <li>Discarding edible food</li>
+</ul>
+<button id="topBtn" onclick="scrollToTop()">⬆ Top</button>
+<p>Food Wastage Awareness:</p>
+<div id="progressContainer">
+  <div id="progressBar"></div>
+</div>
+<button onclick="increaseProgress()">Read More</button>
+

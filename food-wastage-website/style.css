@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f5;
+    color: #333;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #4caf50;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#causesList {
+    display: none;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+#topBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    display: none;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#progressContainer {
+    width: 100%;
+    background-color: #ddd;
+    height: 25px;
+}
+#progressBar {
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+}
